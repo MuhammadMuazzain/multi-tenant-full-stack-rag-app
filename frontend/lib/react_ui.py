@@ -12,8 +12,10 @@ from aws_cdk import (
     aws_ssm as ssm
 )
 
-from .static_site import StaticSitePublicS3, StaticSitePrivateS3
+# from .static_site import StaticSitePublicS3, StaticSitePrivateS3
 
+
+from .static_site import StaticSitePublicS3, StaticSitePrivateS3
 
 class ReactUiStack(Stack):
     def __init__(self, scope, construct_id,

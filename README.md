@@ -67,8 +67,8 @@ And type <CTRL>+A and then D to disconnect from the screen and leave it runnning
 
 If you're familiar with using the CDK, and you already have your account bootstrapped, just do the following:
 
-1. `git clone https://github.com/aws-samples/multi-tenant-full-stack-rag-application-demo.git`
-2. `cd multi-tenant-full-stack-rag-application-demo`
+1. `git clone https://github.com/MuhammadMuazzain/multi-tenant-full-stack-rag-app.git`
+2. `cd multi-tenant-full-stack-rag-app`
 3. paste your AWS credentials into the terminal
 4. Bootstrap your account and region if you've never used CDK in this region (`cdk bootstrap aws://account_id/region_code`)
 5. `./install_cdk.sh -y` (the -y is optional to approve all of the IAM changes, equivalent to running `cdk deploy --require-approval never`)

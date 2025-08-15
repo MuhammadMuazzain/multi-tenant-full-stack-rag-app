@@ -42,6 +42,7 @@ class StaticSite(Construct):
         # Public variables
         self.bucket = None
         self.certificate = None
+        # self.distribution = None
         self.distribution = None
 
         # Internal variables
